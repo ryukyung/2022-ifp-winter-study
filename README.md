@@ -44,7 +44,7 @@
    2. 본인의 겨울방학 스터디 저장소를 Clone (로컬의 저장소 폴더가 생성됨)
    3. IFP의 겨울방학 스터디 저장소와 동기화 (변경된 내역을 나의 저장소에도 일치시켜주는 작업)
    
-   # 먼저 로컬부터 동기화해줘야 한다. (Fork 하기 전의 레포. 즉, 우애 레포의 remote 이름을 "upstream"이라고 해준다.)
+   # 먼저 로컬부터 동기화해줘야 한다. (Fork 하기 전의 레포. 즉, IFP 레포의 remote 이름을 "upstream"이라고 해준다.)
    # upstream 추가 -> 통상적으로 upstream이라고 해주는게 원칙이다.
    $ git remote add upstream https://github.com/...
    # upstream 레포의 변경 내역을 로컬의 저장소와 병합
