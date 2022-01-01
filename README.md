@@ -6,11 +6,11 @@
 
 - 동아리 회장 
 
-  - 이하람 < [HalamLee] (https://github.com/HalamLee) >
+  - 이하람 < [HalamLee](https://github.com/HalamLee) >
 
 - 참여 동아리원
 
-  - [부회장]  정채은 < [chaeeunj] (https://github.com/chaeeunj) >
+  - [부회장]  정채은 < [chaeeunj](https://github.com/chaeeunj) >
 
-  - 경준현 < [hyeon0697] (https://github.com/hyeon0697) >
+  - 경준현 < [hyeon0697](https://github.com/hyeon0697) >
 
