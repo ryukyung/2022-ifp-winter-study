@@ -35,7 +35,7 @@
 
 3. 저장한 파일을 개인별 Fork한 Repo의 Branch(각자 이름)로 PUSH
 
-4. 개인별 깃허브 Repo에 PUSH된 Branch를 ... 의 개인 Branch(각자 이름)로 PR을 보냄
+4. 개인별 깃허브 Repo에 PUSH된 Branch를 IFP의 겨울방학 스터디 저장소의 개인 Branch(각자 이름)로 PR을 보냄
 
 5. 해당 과정을 반복
 
