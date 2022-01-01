@@ -54,7 +54,7 @@
    $ git branch leehalam
    # 해당 브랜치로 이동 (ex: git checkout 브랜치명)
    $ git checkout leehalam
-   # 로컬의 master와 이동한 브랜치를 병합 (이로써 로컬의 leehalam 브랜치와 upstream의 main 브랜치가 동기화되었다.)
+   # 로컬의 main과 이동한 브랜치를 병합 (이로써 로컬의 leehalam 브랜치와 upstream의 main 브랜치가 동기화되었다.)
    $ git merge main
    
    4. 관련 폴더(ex: codeup) 생성
