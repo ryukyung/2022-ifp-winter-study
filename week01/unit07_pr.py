@@ -1,4 +1,4 @@
-# 다음 소스 코드를 완성하여 날짜와 시간이 출력되게 만드세요.
+# ◼ 다음 소스 코드를 완성하여 날짜와 시간이 출력되게 만드세요.
 # year, month, day, hour, minute, second = input().split()
 # _______________________________________
 # print(hour, minute, second, sep=':')
