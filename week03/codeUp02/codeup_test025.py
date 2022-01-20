@@ -10,7 +10,8 @@
 # [50]
 # [4]
 num = str(input())
-i = 4
+#i = 4
+i = len(num) - 1
 for j in num:
     print("[{}{}]".format(j, '0'*i))
     i = i - 1

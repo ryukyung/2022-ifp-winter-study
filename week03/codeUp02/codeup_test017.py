@@ -4,3 +4,5 @@
 # 출력 : 3:15
 num1, num2 = map(int, input().split(':'))
 print(num1, num2, sep=':')
+#num1, num2 = input().split(':')
+#print('{}:{}'.format(num1, num2))

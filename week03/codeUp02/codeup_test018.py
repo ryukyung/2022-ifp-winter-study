@@ -14,3 +14,10 @@ if int(month) < 10:
 if int(day) < 10:
     day = '0' + day
 print(year, month, day, sep='.')
+
+#year, month, day = input().split('.')
+#if len(month) == 1:
+#  month = '0'+month
+#if len(day) == 1:
+#  day = '0'+day
+#print('{}.{}.{}'.format(year, month, day))

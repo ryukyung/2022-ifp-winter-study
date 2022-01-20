@@ -5,5 +5,6 @@
 # 출력 :
 # 1
 # 435867
-num = input().split()
+num = input().split('.')
 print(num[0], num[1], sep='\n')
+# print("{}\n{}".format(num[0],num[1]))
