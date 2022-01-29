@@ -43,3 +43,10 @@ for _ in range(4):
 for _ in range(4):
       a, b = map(int, input().split())
       print( not(a or b) )
+
+
+'''
+1개의 정수형 입력이 들어오면 논리 연산을 이용하여 '홀수'와 '짝수'를 판별하여라
+'''
+x = int(input())
+print( x%2 and '홀수' or '짝수' )
