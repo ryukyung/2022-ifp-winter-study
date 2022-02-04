@@ -11,5 +11,21 @@
 # 63
 
 # 내 풀이)
-
+a, b, c = map(int, input().split())
+i = 1
+while i%a != 0 or i%b != 0 or i%c != 0:
+    i+=1
+print(i)
 # 강의 풀이)
+#1
+a, b, c = map(int, input().split())
+day = 1
+while day%a != 0 or day%b != 0 or day%c != 0:
+  day += 1
+print( day )
+#2
+day = 1
+while 1:
+  day += 1
+  if day%a == 0 and day%b == 0 and day%c == 0: break
+print( day )

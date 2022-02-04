@@ -16,5 +16,20 @@
 # 13
 
 # 내 풀이)
-
+a, d, n = map(int, input().split())
+i = 0
+total = 0
+while i != n:
+    total = a + i*d
+    i += 1
+print(total)
 # 강의 풀이)
+a, d, n = map(int, input().split())
+i = a
+count = 0
+arith = []
+while count < n:
+  arith.append(i)
+  i += d
+  count += 1
+print( arith[-1] )

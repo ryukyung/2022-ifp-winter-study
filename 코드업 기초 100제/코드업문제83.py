@@ -30,5 +30,11 @@
 # 2.25 MB*
 
 # 내 풀이)
-
+w, h ,b = map(int, input().split())
+storage = w*h*b
+storageMB = storage / (8*1024*1024)
+print(round(storageMB, 2),'MB')
 # 강의 풀이)
+w, h, b = map(int, input().split())
+result = (w*h*b) / (8 * 1024**2)
+print( round(result, 2), 'MB' )

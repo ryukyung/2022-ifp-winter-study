@@ -14,5 +14,18 @@
 # 66
 
 # 내 풀이)
-
+final = int(input())
+total = 0
+i = 0
+while total <= final:
+    i += 1
+    total += i
+print(total)
 # 강의 풀이)
+end_point = int(input())
+total = 0
+i = 1
+while total < end_point:
+  total += i
+  i += 1
+print( total )

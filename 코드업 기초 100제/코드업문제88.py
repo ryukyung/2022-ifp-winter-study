@@ -17,5 +17,18 @@
 # -85
 
 # 내 풀이)
-
+a, m, d, n = map(int, input().split())
+i = 0
+total = 0
+while i != n:
+    total += a * m**(i)
+    i += 1
+print(total)
 # 강의 풀이)
+a, m, d, n = map(int, input().split())
+i = a
+prog = []
+while len(prog) < n:
+  prog.append(i)
+  i = i*m+d
+print( prog[-1] )

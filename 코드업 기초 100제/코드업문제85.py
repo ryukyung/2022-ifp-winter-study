@@ -12,5 +12,11 @@
 # 1 2 4 5 7 8 10
 
 # 내 풀이)
-
+end = int(input())
+for i in range(0,end+1):
+    if i % 3 != 0: print(i, end=' ')
 # 강의 풀이)
+num = int(input())
+for i in range(1, num+1):
+  if i%3:
+    print(i, end=' ')

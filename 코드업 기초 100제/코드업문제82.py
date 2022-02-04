@@ -32,5 +32,12 @@
 # 1.7 MB
 
 # 내 풀이)
-
+h,b,c,s = map(int, input().split())
+sound = h*b*c*s
+soundMB = sound /(8*1024*1024)
+print(round(soundMB,1),'MB')
 # 강의 풀이)
+h, b, c, s = map(int, input().split())
+result = h*b*c*s
+resultMB = result / (8 * 1024**2)
+print(round(resultMB, 1), 'MB')
