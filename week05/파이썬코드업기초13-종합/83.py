@@ -7,3 +7,5 @@ num = int(input())
 for i in range(1, num+1):
   count = i if i%3 else 'X'
   print(count, end=' ')
+
+  # 다시 pr
