@@ -17,3 +17,5 @@
 n = int(input())
 rand = map(int, input().split())
 print( min(rand) )
+
+# pr테스트
