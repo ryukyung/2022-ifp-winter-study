@@ -66,3 +66,53 @@ for _ in range(n):
         baduk[y][x] = 1 if baduk[y][x] == 0 else 0  #0은 1로 1은 0으로 변환
 for c in baduk:
     print(*c)
+
+#98
+#격자판의 세로(h), 가로(w), 막대의 개수(n), 각 막대의 길이(l),
+#막대를 놓는 방향(d:가로는 0, 세로는 1)과
+#막대를 놓는 막대의 가장 왼쪽 또는 위쪽의 위치(x, y)가 주어질 때,
+#격자판을 채운 막대의 모양을 출력하는 프로그램을 만들어보자.
+h,w = map(int, input().split())
+shape = [[0 for _ in range(w)] for _ in range(h)] # 0으로 초기화
+n = int(input())
+for _ in range(n):   #5x5 형태 반복문 작성
+    l,d,x,y = map(int, input().split())
+    x,y = x-1, y-1
+
+    if d == 0:
+        for i in range(l):
+            shape[x][y+i] = 1 #d가 0이면 가로가 바껴야하므로 y에 i를 더함
+    else:
+        for i in range(l):
+            shape[x+i][y] = 1
+    
+for s in shape:
+    print(*s)
+
+#99
+#미로 상자의 구조가 0(갈 수 있는 곳), 1(벽 또는 장애물)로 주어지고,
+#먹이가 2로 주어질 때, 성실한 개미의 이동 경로를 예상해보자.
+ant_house = [
+         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+         [1, 0, 0, 1, 0, 0, 0, 0, 0, 1],
+         [1, 0, 0, 1, 1, 1, 0, 0, 0, 1],
+         [1, 0, 0, 0, 0, 0, 0, 1, 0, 1],
+         [1, 0, 0, 0, 0, 0, 0, 1, 0, 1],
+         [1, 0, 0, 0, 0, 1, 0, 1, 0, 1],
+         [1, 0, 0, 0, 0, 1, 2, 1, 0, 1],
+         [1, 0, 0, 0, 0, 1, 0, 0, 0, 1],
+         [1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+]
+x,y = 1,1
+
+while ant_house[x][y] !=2:
+    if ant_house[x][y] ==0:
+        ant_house[x][y] =9
+        y +=1
+    else :
+        x +=1
+        y -=1
+ant_house[x][y] = 9
+for house in ant_house:
+    print(*house)
