@@ -21,7 +21,7 @@
   - 유경덕 <[N0Rib](https://github.com/N0Rib)>
   - 유재우 <[blooper20](https://github.com/blooper20)>
   - 이지희 <[ji1210h](https://github.com/ji1210h)>
-  - 채희진 <[coowooc](https://github.com/coowooc)>
+  - 채희진 <[coowooc](https://coowooc.tistory.com/)>
 
 ## ❓ 무엇을 하는가?
 
