@@ -15,6 +15,8 @@ for i in randNumber:
 #아스타리스크를 사용하면 배열을 뜯고 출력 가능하다.
 print(*listLangList)
 
+
+
 # [94] 이상한 출석 번호 부르기2
 
 #출제자 답안에서 n번은 왜 조건으로 넣은 지 모르겠다, n을 쓰질 않던데?
@@ -29,6 +31,8 @@ for i in range(0, langList):
 #리버스로 순서를 뒤집어준다.
 numberList.reverse()
 print(*numberList)
+
+
 
 # [95] 이상한 출석 번호 부르기3
 
