@@ -1,4 +1,4 @@
-# 💻 IFP 2022년 겨울방학 스터디
+# 💻 IFP 2021년 겨울방학 스터디
 
 
 - 활동 기간 : 2022.01.03(월) ~ 2022.02.27(일)
@@ -21,7 +21,7 @@
   - 유경덕 <[N0Rib](https://github.com/N0Rib)>
   - 유재우 <[blooper20](https://github.com/blooper20)>
   - 이지희 <[ji1210h](https://github.com/ji1210h)>
-  - 채희진 <[coowooc](https://github.com/coowooc)>
+  - 채희진 <[coowooc](https://coowooc.tistory.com/)>
 
 ## ❓ 무엇을 하는가?
 
@@ -80,6 +80,4 @@
     ❗ 이때, IFP 저장소의 main 브랜치가 아닌 "본인 이름의 브랜치"로 보내야함
     이후 회장이 확인한 후 IFP 저장소의 본인 브랜치로 병합시켜주는 작업을 하게 된다.
    ```
-
-   
 
